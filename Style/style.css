@@ -1,0 +1,210 @@
+*
+{
+  margin: 0 auto;
+  padding: 0;
+  font-family: arial;
+  box-sizing: border-box;
+}
+
+input[type=url]
+{
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+  padding: 17px 30px;
+  border: none;
+  width: 50%;
+  font-size: 1.3em;
+}
+
+input[type=submit]
+{
+  cursor: pointer;
+  padding: 17px 30px;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 3px;
+  background: #ee6123;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+section#hello
+{
+  background-image: url('../Images/hello.jpg');
+  background-size: cover;
+  height: 500px;
+
+}
+
+.url-form
+{
+  text-align: center;
+  margin-top: 30px;
+}
+
+div.container
+{
+  width: 1100px;
+  margin 0 auto;
+  display: contents;
+}
+header
+{
+  padding: 30px;
+}
+
+img#logo
+{
+  height: 50px;
+
+}
+
+h1,h2
+{
+  color: #fff;
+  text-align: center;
+
+}
+
+h1
+{
+  text-transform: uppercase;
+  font-size: 2.9em;
+  margin-top: 10px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+h2
+{
+  font-size: 23px;
+  font-weight: 500;
+}
+
+section#brand
+{
+  background: #eff7fc;
+    padding: 30px;
+    text-align: center;
+
+
+}
+
+#brand h3
+{
+  margin: 0;
+  color: #ee6123;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+img.picture
+{
+  height: 35px;
+  margin: 15px;
+}
+
+img#Orange_logo
+{
+  margin-top: 100px;
+}
+footer#end
+{
+  text-align: center;
+  padding: 30px;
+}
+
+div.link
+{
+  display: flex;
+  justify-content: center;
+}
+
+footer div a
+{
+   justify-content: center;
+   color: #ee6123;
+   text-decoration: none;
+   margin: 0;
+}
+
+footer a:hover
+{
+  color: rgb(46, 46, 46);
+}
+
+footer a:focus
+{
+  color: #ee6123;
+}
+
+
+footer p
+{
+  margin: 2px 8px;
+  justify-content: center;
+  font-weight: bold;
+
+}
+
+div#result
+{
+  color: #fff;
+  margin: 20px;
+  padding: 30px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+div.center
+{
+  text-align: center;
+}
+
+/*responsive ecran > 1040px */
+@media screen and (max-width: 1040px) {
+  input[type=submit]{
+    display: flex;
+    margin-top: 30px;
+  }
+
+section#hello{
+  height: 560px;
+}
+
+input[type="url"]{
+  text-align: center;
+}
+
+h1{
+  font-size: 34px;
+}
+h2{
+  font-size: 20px;
+}
+}
+
+
+@media screen and (max-width: 740px)
+{
+  h1{
+    font-size: 28px;
+
+  }
+  h2{
+    font-size: 17px;
+  }
+  input[type="url"]{
+    padding: 17px 5px;
+    font-size: 15px;
+  }
+}
+
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
