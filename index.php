@@ -47,9 +47,9 @@ if (!filter_var($url, FILTER_VALIDATE_URL)) {
   $shortcut = crypt($url, rand());
 
   //verifier si l'url à déjà eté envoyé dans le passé (optionel)
-  $user = 'cole7746';
-  $pass = 'bvCTubExjRfs';
-  $bdd = new PDO('mysql:host=dibodev.com;dbname=cole7746_bitly;charset=utf8',$user, $pass);
+  $user = 'username';
+  $pass = 'pwd';
+  $bdd = new PDO('mysql:host=dibodev.com;dbname=dbname;charset=utf8',$user, $pass);
   $req = $bdd->prepare('SELECT COUNT(*) AS x FROM links WHERE url = ?');
   $req->execute(array($url));
   $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
